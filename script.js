@@ -2,12 +2,10 @@
 let slideIndex = 0;
 showSlides(slideIndex);
 
-// Вперед/назад элементы управления
 function plusSlides(nextIndex) {
     showSlides(slideIndex += nextIndex);
 }
 
-// Элементы управления миниатюрами изображений
 function currentSlide(nextIndex) {
     showSlides(slideIndex = nextIndex);
 }
